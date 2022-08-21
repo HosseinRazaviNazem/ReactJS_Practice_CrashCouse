@@ -4,9 +4,10 @@
 import React from 'react';
 import './todo.module.css';
 
-function todo( props) {
+function Todo( props) {
 
      const deleteHandler  = ()=>{
+        alert(props.text);
 
 
      }
@@ -27,5 +28,5 @@ function todo( props) {
   )
 }
 
-export default todo
+export default Todo
 
